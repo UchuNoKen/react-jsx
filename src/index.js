@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Function to display button text
-function getButtonText(){
-    return 'Click on me!';
-}
+// function getButtonText(){
+//     return 'Click on me!';
+// }
 
 // Create a react component
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         </label>
         <input id="name" type="text" />
         <button style={{ backgroundColor: 'blue', color: 'white'}}>
-          {getButtonText()}
+          {buttonText}
         </button>
       </div>
     );
